@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="8|CoreRPG:4">
+	<reference static="true">
+		<npcdata>
+			<egi-arrhidaeus>
+				<locked type="number">1</locked>
+				<name type="string">Egi, Arrhidaeus</name>
+				<size type="string">Large</size>
+				<type type="string">construct</type>
+				<alignment type="string">lawful neutral</alignment>
+				<ac type="number">16</ac>
+				<actext type="string">(heavy plating [no dexterity modifier], +2 proficiency)</actext>
+				<hp type="number">20</hp>
+				<hd type="string">(2d10+4)</hd>
+				<speed type="string">0 ft., fly 50 ft.</speed>
+				<abilities>
+					<strength><score type="number">13</score><modifier type="string">+1</modifier></strength>
+					<dexterity><score type="number">8</score><modifier type="string">-1</modifier></dexterity>
+					<constitution><score type="number">14</score><modifier type="string">+2</modifier></constitution>
+					<intelligence><score type="number">15</score><modifier type="string">+2</modifier></intelligence>
+					<wisdom><score type="number">12</score><modifier type="string">+1</modifier></wisdom>
+					<charisma><score type="number">10</score><modifier type="string">0</modifier></charisma>
+				</abilities>
+				<savingthrows type="string"></savingthrows>
+				<skills type="string">Insight +3, Investigation +3</skills>
+				<damageresistances type="string"></damageresistances>
+				<damagevulnerabilities type="string"></damagevulnerabilities>
+				<damageimmunities type="string">poison, psychic</damageimmunities>
+				<conditionimmunities type="string">charmed, frightened, paralyzed, poisoned, unconscious</conditionimmunities>
+				<senses type="string">darkvision 60 ft., passive Perception 11</senses>
+				<languages type="string">All</languages>
+				<cr type="string"></cr>
+				<xp type="number"></xp>
+				<actions>
+					<rocketfistmelee>
+						<name type="string">Rocket Fist [Melee]</name>
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 30 ft., one target. Hit: 2d6 + 3 bludgeoning damage.</desc>
+					</rocketfistmelee>
+					<rocketfistranged>
+						<name type="string">Rocket Fist [Ranged]</name>
+						<desc type="string">Ranged Weapon Attack: +3 to hit, reach 30 ft., one target. Hit: 2d6 + 3 bludgeoning damage.</desc>
+					</rocketfistranged>
+					<chronalacceleratordecelerator>
+						<name type="string">Chronal Accelerator/Decelerator (Recharge 6)</name>
+						<desc type="string">By shifting the flow of time from one creature to another, Arrhidaeus casts slow on a single creature within 30 feet, and haste on a different creature within 30 feet. Both of these effects share the same concentration. If either of these effects end, both end simultaneously. Intelligence is Arrhidaeus's spellcasting ability modifier for this spell.</desc>
+					</chronalacceleratordecelerator>
+					<almostholy>
+						<name type="string">[Enkindle] Almost Holy</name>
+						<desc type="string">You emit a powerful pulse of holy energy, bathing the area in white light. Each creature you choose within 30 feet must succeed on a DC 12 Constitution save or take 5d6 force damage and 5d6 radiant damage and be knocked prone. A creature that succeeds on its save takes half damage and isn't prone. This ability dispells magical darkness in the area.</desc>
+					</almostholy>
+				</actions>
+				<reactions>
+					<temporaldisruption>
+						<name type="string">Temporal Disruption (Recharge 5-6)</name>
+						<desc type="string">When a creature Arrhidaeus can see within 60 feet begins its turn, Arrhidaeus may replace the creature's initiative with his own. Arrhidaeus's initiative becomes that creature's initiative instead.</desc>
+					</temporaldisruption>
+				</reactions>
+			</egi-arrhidaeus>
+			<egi-demianima>
+				<locked type="number">1</locked>
+				<name type="string">Egi, Demi Anima</name>
+				<size type="string">Large</size>
+				<type type="string">elemental</type>
+				<alignment type="string">neutral evil</alignment>
+				<ac type="number">14</ac>
+				<actext type="string">(+3 natural armor, +2 proficiency)</actext>
+				<hp type="number">20</hp>
+				<hd type="string">(2d10+4)</hd>
+				<speed type="string">20 ft.</speed>
+				<abilities>
+					<strength><score type="number">12</score><modifier type="string">+1</modifier></strength>
+					<dexterity><score type="number">8</score><modifier type="string">-1</modifier></dexterity>
+					<constitution><score type="number">15</score><modifier type="string">+2</modifier></constitution>
+					<intelligence><score type="number">10</score><modifier type="string">0</modifier></intelligence>
+					<wisdom><score type="number">13</score><modifier type="string">+1</modifier></wisdom>
+					<charisma><score type="number">14</score><modifier type="string">+2</modifier></charisma>
+				</abilities>
+				<savingthrows type="string"></savingthrows>
+				<skills type="string">Intimidation +4, Insight +3</skills>
+				<damageresistances type="string"></damageresistances>
+				<damagevulnerabilities type="string"></damagevulnerabilities>
+				<damageimmunities type="string">necrotic, psychic, poison</damageimmunities>
+				<conditionimmunities type="string">exhaustion, poisoned, prone, unconscious</conditionimmunities>
+				<senses type="string">darkvision 120 ft., passive Perception 11</senses>
+				<languages type="string">understands the languages of its summoner but cannot speak</languages>
+				<cr type="string"></cr>
+				<xp type="number"></xp>
+				<actions>
+					<malice>
+						<name type="string">Malice</name>
+						<desc type="string">Ranged Spell Attack: +4 to hit, reach 60 ft., one target. Hit: 1d12 + 4 necrotic damage.</desc>
+					</malice>
+					<pain>
+						<name type="string">Pain (Recharge 5-6)</name>
+						<desc type="string">Demi Anima inflicts 1d12 damage to herself. Then a creature within 30 feet must make a DC 12 Constitution saving throw, taking necrotic damage equal to four times the damage Demi Anima took on a failed save, or half as much damage on a successful one.</desc>
+					</pain>
+					<oblivion>
+						<name type="string">[Enkindle] Oblivion</name>
+						<desc type="string">Demi Anima drags a target within 60 feet to the underworld, where the other side of her suffering torments them. The target must make a DC 12 Charisma saving throw, taking 3d6 psychic damage and be banished to a Demiplane where only Anima's horrifying underside exists on a failed save, or half as much damage on a successful one and they are not banished. While there, the target is Incapacitated. At the end of the banished creature's turn, the target must make a DC 12 Wisdom saving throw, taking 3d6 necrotic damage and remaining in the demiplane where Anima continues to torment the target on a failed save, or half as much damage on a successful one, and then escapes from the demiplane. When the target escapes the demiplane, drops to 0 hit points, Demi Anima is defeated or unsummoned, or after 1 minute, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</desc>
+					</oblivion>
+				</actions>
+				<reactions>
+					<sharedsuffering>
+						<name type="string">Shared Suffering (Recharge 6)</name>
+						<desc type="string">When Demi Anima takes damage from a single source, as a reaction, Demi Anima may force the source of the damage to make a DC 12 Constitution saving throw, taking an equal amount of necrotic damage on a failed save, or half as much on a successful one.</desc>
+					</sharedsuffering>
+				</reactions>
+			</egi-demianima>
+			<egi-demiifrit>
+				<locked type="number">1</locked>
+				<name type="string">Egi, Demi Ifrit</name>
+				<size type="string">Large</size>
+				<type type="string">elemental</type>
+				<alignment type="string">chaotic evil</alignment>
+				<ac type="number">14</ac>
+				<actext type="string">(+2 proficiency)</actext>
+				<hp type="number">16</hp>
+				<hd type="string">(2d10)</hd>
+				<speed type="string">40 ft.</speed>
+				<abilities>
+					<strength><score type="number">15</score><modifier type="string">+2</modifier></strength>
+					<dexterity><score type="number">14</score><modifier type="string">+2</modifier></dexterity>
+					<constitution><score type="number">10</score><modifier type="string">0</modifier></constitution>
+					<intelligence><score type="number">8</score><modifier type="string">-1</modifier></intelligence>
+					<wisdom><score type="number">13</score><modifier type="string">+1</modifier></wisdom>
+					<charisma><score type="number">12</score><modifier type="string">+1</modifier></charisma>
+				</abilities>
+				<savingthrows type="string"></savingthrows>
+				<skills type="string">Intimidation +3, Perception +3</skills>
+				<damageresistances type="string"></damageresistances>
+				<damagevulnerabilities type="string"></damagevulnerabilities>
+				<damageimmunities type="string">fire, poison</damageimmunities>
+				<conditionimmunities type="string">exhaustion, poisoned, unconscious</conditionimmunities>
+				<senses type="string">darkvision 60 ft., passive Perception 11</senses>
+				<languages type="string">understands the languages of its summoner but cannot speak</languages>
+				<cr type="string"></cr>
+				<xp type="number"></xp>
+				<traits>
+					<radiantshield>
+						<name type="string">Radiant Shield</name>
+						<desc type="string">A creature that touches Demi Ifrit or hits it with a melee attack while within 5 feet of it takes 1d10 fire damage.</desc>
+					</radiantshield>
+					<illumination>
+						<name type="string">Illumination</name>
+						<desc type="string">Demi Ifrit sheds bright light in a 30-foot radius and dim light for an additional 30 feet.</desc>
+					</illumination>
+					<watersusceptibility>
+						<name type="string">Water Susceptibility</name>
+						<desc type="string">For every 5 feet Demi Ifrit moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</desc>
+					</watersusceptibility>
+				</traits>
+				<actions>
+					<burningstrike>
+						<name type="string">Burning Strike</name>
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6 fire damage plus 1d6 + 4 slashing damage.</desc>
+					</burningstrike>
+					<crimsoncyclone>
+						<name type="string">Crimson Cyclone (Recharge 5-6)</name>
+						<desc type="string">Demi Ifrit dashes between 20 and 40 feet forward in a straight line, provoking no attacks of opportunity. He may pass through occupied spaces, subjecting them to Radiant Shield. Demi Ifrit may then use Burning Strike as a bonus action.</desc>
+					</crimsoncyclone>
+					<eruption>
+						<name type="string">Eruption (Recharge 6)</name>
+						<desc type="string">Demi Ifrit causes a firey explosion to emit from the ground from a point within 30 feet. Each creature within 10 feet of that point must make a DC 11 Dexterity saving throw, taking 5d6 fire damage on a failed save, or half as much damage on a successful one.</desc>
+					</eruption>
+					<hellfire>
+						<name type="string">[Enkindle] Hellfire</name>
+						<desc type="string">Demi Ifrit releases an explosive pillar of fire around itself in a 30-foot radius. Each creature caught in the explosion must make a DC 11 Dexterity saving throw, taking 8d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for 5 rounds. At the end of each of its turns, the target repeats the saving throw. It takes 1d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished through nonmagical means. If damage from this ability kills a target, the target is turned to ash.</desc>
+					</hellfire>
+				</actions>
+			</egi-demiifrit>
+			<egi-demilakshmi>
+				<locked type="number">1</locked>
+				<name type="string">Egi, Demi Lakshmi</name>
+				<size type="string">Large</size>
+				<type type="string">elemental</type>
+				<alignment type="string">chaotic neutral</alignment>
+				<ac type="number">14</ac>
+				<actext type="string">(+2 proficiency)</actext>
+				<hp type="number">18</hp>
+				<hd type="string">(2d10+2)</hd>
+				<speed type="string">30 ft.</speed>
+				<abilities>
+					<strength><score type="number">8</score><modifier type="string">-1</modifier></strength>
+					<dexterity><score type="number">14</score><modifier type="string">+2</modifier></dexterity>
+					<constitution><score type="number">12</score><modifier type="string">+1</modifier></constitution>
+					<intelligence><score type="number">10</score><modifier type="string">0</modifier></intelligence>
+					<wisdom><score type="number">13</score><modifier type="string">+1</modifier></wisdom>
+					<charisma><score type="number">15</score><modifier type="string">+2</modifier></charisma>
+				</abilities>
+				<savingthrows type="string"></savingthrows>
+				<skills type="string">Intimidation +4, Perception +3</skills>
+				<damageresistances type="string"></damageresistances>
+				<damagevulnerabilities type="string"></damagevulnerabilities>
+				<damageimmunities type="string">poison, psychic</damageimmunities>
+				<conditionimmunities type="string">exhaustion, charmed, poisoned, unconscious</conditionimmunities>
+				<senses type="string">darkvision 60 ft., passive Perception 13</senses>
+				<languages type="string">understands the languages of its summoner but cannot speak</languages>
+				<cr type="string"></cr>
+				<xp type="number"></xp>
+				<actions>
+					<stotram>
+						<name type="string">Stotram</name>
+						<desc type="string">Demi Lakshmi utters a word of grace and beauty. The target must make a DC 12 Wisdom saving throw, taking 1d6 radiant damage and 1d6 + 4 psychic damage on a failed save, or half as much damage on a successful save.</desc>
+					</stotram>
+					<handofgrace>
+						<name type="string">Hand of Grace (Recharge 5-6)</name>
+						<desc type="string">Demi Lakshmi chooses a target within 60 feet. She then conjures a cross of glamour and grace, creating two 30-foot lines that intersect at the target. Creatures caught in the area must make a DC 12 Dexterity saving throw, taking 4d6 radiant damage and becoming blinded until the end of their next turn on a failed save, or half as much damage on a successful one and they are not blinded.</desc>
+					</handofgrace>
+					<seduce>
+						<name type="string">[Enkindle] Seduce</name>
+						<desc type="string">Demi Lakshmi takes on an unavoidable aspect of beauty and grace. Anyone who can see Lakshmi must succeed a DC 12 Wisdom saving throw or become charmed for 1 minute. While charmed by this spell, the creature is incapacitated and has a speed of 0. The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</desc>
+					</seduce>
+				</actions>
+				<reactions>
+					<divinedenial>
+						<name type="string">Divine Denial (Recharge 6)</name>
+						<desc type="string">Demi Lakshmi attempts to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your Charisma. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect. If you successfuly counter a spell, the spellcaster takes 2d6 psychic damage, and if they are Large or smaller, they are pushed 10 feet away from you.</desc>
+					</divinedenial>
+				</reactions>
+			</egi-demilakshmi>
+			<egi-demileviathan>
+				<locked type="number">1</locked>
+				<name type="string">Egi, Demi Leviathan</name>
+				<size type="string">Large</size>
+				<type type="string">elemental</type>
+				<alignment type="string">true neutral</alignment>
+				<ac type="number">15</ac>
+				<actext type="string">(+1 natural armor, +2 proficiency)</actext>
+				<hp type="number">16</hp>
+				<hd type="string">(2d10)</hd>
+				<speed type="string">10 ft., fly (hover) 40 ft., swim 60 ft.</speed>
+				<abilities>
+					<strength><score type="number">12</score><modifier type="string">+1</modifier></strength>
+					<dexterity><score type="number">14</score><modifier type="string">+2</modifier></dexterity>
+					<constitution><score type="number">10</score><modifier type="string">0</modifier></constitution>
+					<intelligence><score type="number">8</score><modifier type="string">-1</modifier></intelligence>
+					<wisdom><score type="number">15</score><modifier type="string">+2</modifier></wisdom>
+					<charisma><score type="number">13</score><modifier type="string">+1</modifier></charisma>
+				</abilities>
+				<savingthrows type="string"></savingthrows>
+				<skills type="string">Athletics +3, Perception +4</skills>
+				<damageresistances type="string">cold</damageresistances>
+				<damagevulnerabilities type="string"></damagevulnerabilities>
+				<damageimmunities type="string">poison</damageimmunities>
+				<conditionimmunities type="string">exhaustion, poisoned, unconscious</conditionimmunities>
+				<senses type="string">darkvision 60 ft., passive Perception 12</senses>
+				<languages type="string">understands the languages of its summoner but cannot speak</languages>
+				<cr type="string"></cr>
+				<xp type="number"></xp>
+				<actions>
+					<scaledarts>
+						<name type="string">Scale Darts</name>
+						<desc type="string">Ranged Weapon Attack: +4 to hit, reach 30/120 ft., one target. Hit: 1d8 + 4 piercing damage.</desc>
+					</scaledarts>
+					<whirlpool>
+						<name type="string">Whirlpool (Recharge 5-6)</name>
+						<desc type="string">Demi Leviathan creates a localized whirlpool at a point within 60 feet. Each creature within 20 feet of that point must succeed on a DC 12 Strength saving throw or take 2d6 bludgeoning damage and be pulled 10 feet towards the center. A creature with a swim speed has advantage on the save. Any creature without a swim speed beginning its turn in the whirlpool takes 2d6 bludgeoning damage, and any creature ending its turn in the whirlpool takes 2d6 cold damage. The whirlpool remains for 1 minute, or until another is created, and counts as difficult terrain for the duration.</desc>
+					</whirlpool>
+					<tidalroar>
+						<name type="string">Tidal Roar (Recharge 6)</name>
+						<desc type="string">Demi Leviathan lets out a water-aspected roar. Each creature of Demi Leviathan's choice that is within 120 feet of him and can hear him must succeed on a DC 12 Wisdom saving throw or become frightened for 1 minute. A creature frightened by this ability has disadvantage on checks to resist Demi Leviathan's Whirlpool and Tidal Wave abilities. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+					</tidalroar>
+					<tidalewave>
+						<name type="string">[Enkindle] Tidal Wave</name>
+						<desc type="string">Demi Leviathan conjures up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a DC 12 Dexterity saving throw, takes 6d8 bludgeoning damage and is knocked prone. On a success, a creature takes half as much damage and isn't knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then it vanishes.</desc>
+					</tidalwave>
+				</actions>
+			</egi-demileviathan>
+			<egi-demiremora>
+				<locked type="number">1</locked>
+				<name type="string">Egi, Demi Remora</name>
+				<size type="string">Medium</size>
+				<type type="string">elemental</type>
+				<alignment type="string">lawful good</alignment>
+				<ac type="number">15</ac>
+				<actext type="string">(+2 natural armor, +2 proficiency)</actext>
+				<hp type="number">13</hp>
+				<hd type="string">(2d8)</hd>
+				<speed type="string">30 ft.</speed>
+				<abilities>
+					<strength><score type="number">15</score><modifier type="string">+2</modifier></strength>
+					<dexterity><score type="number">13</score><modifier type="string">+1</modifier></dexterity>
+					<constitution><score type="number">10</score><modifier type="string">0</modifier></constitution>
+					<intelligence><score type="number">8</score><modifier type="string">-1</modifier></intelligence>
+					<wisdom><score type="number">12</score><modifier type="string">+1</modifier></wisdom>
+					<charisma><score type="number">14</score><modifier type="string">+2</modifier></charisma>
+				</abilities>
+				<savingthrows type="string"></savingthrows>
+				<skills type="string">Insight +3, Perception +3</skills>
+				<damageresistances type="string">bludgeoning, piercing, and slashing damage from nonmagical weapons</damageresistances>
+				<damagevulnerabilities type="string"></damagevulnerabilities>
+				<damageimmunities type="string">poison</damageimmunities>
+				<conditionimmunities type="string">blinded, exhaustion, frightened, poisoned, restrained, unconscious</conditionimmunities>
+				<senses type="string">truesight 120 ft., passive Perception 13</senses>
+				<languages type="string">understands the languages of its summoner but cannot speak</languages>
+				<cr type="string"></cr>
+				<xp type="number"></xp>
+				<traits>
+					<magicweapons>
+						<name type="string">Magic Weapons</name>
+						<desc type="string">Demi Remora's weapon attacks are magical.</desc>
+					</magicweapons>
+					<determination>
+						<name type="string">Determination (1/day)</name>
+						<desc type="string">When Demi Remora is reduced to 0 hit points but not killed outright, it can drop to 1 hit point instead. It may then use its reaction to make a Spear of Heroism attack.</desc>
+					</determination>
+				</traits>
+				<actions>
+					<spearofheroism>
+						<name type="string">Spear of Heroism</name>
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 1d6 + 4 piercing damage. Remora may make another Spear of Heroism attack as a bonus action.</desc>
+					</spearofheroism>
+					<shieldofspears>
+						<name type="string">Shield of Spears (Recharge 5-6)</name>
+						<desc type="string">Demi Remora fills the air around her with defensive spears. Her AC increases by her proficiency bonus until the end of her next turn, and she may use her reaction to make a Spear of Heroism attack against a target within range who misses her with an attack.</desc>
+					</shieldofspears>
+					<liberate>
+						<name type="string">Liberate (Recharge 6)</name>
+						<desc type="string">Demi Remora chooses one ally within 60 feet and points a spear at them, freeing them from any grappled, paralyzed, petrified, or restrained conditions they currently suffer from, as well as any effect that would reduce their movement speed.</desc>
+					</liberate>
+					<sevenstorms>
+						<name type="string">[Enkindle] Seven Storms</name>
+						<desc type="string">As a bonus action, Demi Remora conjures seven floating, glowing spears within 30 feet. When Demi Remora uses this ability, she can make a melee spell attack against a creature within 5 feet of each weapon. On a hit, the target takes 1d6 + 1 force damage. As a bonus action on your turn, you can move all of the weapons up to 20 feet and repeat the attack against a creature within 5 feet of it. The spears last for 1 minute. If Demi Remora takes damage, she must make a Concentration check. If she fails, 1 spear is destroyed.</desc>
+					</sevenstorms>
+				</actions>
+			</egi-demiremora>
+		</npcdata>
+	</reference>
+	<lists>
+		<monsters>
+			<byletter>
+				<description type="string">Monsters and NPCs</description>
+				<groups>
+					<typeletterE>
+						<description type="string">E</description>
+						<index>
+							<egi-arrhidaeus>
+								<name type="string">Egi, Arrhidaeus</name>
+								<link type="windowreference">
+									<class>npc</class>
+									<recordname>reference.npcdata.egi-arrhidaeus</recordname>
+								</link>
+							</egi-arrhidaeus>
+							<egi-demianima>
+								<name type="string">Egi, Demi Anima</name>
+								<link type="windowreference">
+									<class>npc</class>
+									<recordname>reference.npcdata.egi-demianima</recordname>
+								</link>
+							</egi-demianima>
+							<egi-demiifrit>
+								<name type="string">Egi, Demi Ifrit</name>
+								<link type="windowreference">
+									<class>npc</class>
+									<recordname>reference.npcdata.egi-demiifrit</recordname>
+								</link>
+							</egi-demiifrit>
+							<egi-demilakshmi>
+								<name type="string">Egi, Demi Lakshmi</name>
+								<link type="windowreference">
+									<class>npc</class>
+									<recordname>reference.npcdata.egi-demilakshmi</recordname>
+								</link>
+							</egi-demilakshmi>
+							<egi-demileviathan>
+								<name type="string">Egi, Demi Leviathan</name>
+								<link type="windowreference">
+									<class>npc</class>
+									<recordname>reference.npcdata.egi-demileviathan</recordname>
+								</link>
+							</egi-demileviathan>
+							<egi-demiremora>
+								<name type="string">Egi, Demi Remora</name>
+								<link type="windowreference">
+									<class>npc</class>
+									<recordname>reference.npcdata.egi-demiremora</recordname>
+								</link>
+							</egi-demiremora>
+						</index>
+					</typeletterE>
+				</groups>
+			</byletter>
+		</monsters>
+	</lists>
+	<library>
+		<ffxiv-gm>
+			<name type="string">DD5E HB: Final Fantasy XIV (GM)</name>
+			<categoryname type="string">Homebrew</categoryname>
+			<entries>
+				<r09monsters>
+					<librarylink type="windowreference">
+						<class>reference_colindex</class>
+						<recordname>lists.monsters.byletter</recordname>
+					</librarylink>
+					<name type="string">Monsters and NPCs</name>
+				</r09monsters>
+			</entries>
+		</ffxiv-gm>
+	</library>
+</root>
+
